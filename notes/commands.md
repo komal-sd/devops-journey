@@ -28,3 +28,48 @@ sed -n '2p' file           # print only line 2
 2>  redirect errors
 2>/dev/null  discard errors
 2>&1  merge errors with output
+
+## if/else conditions
+if [ $VAR -gt 80 ]; then    # greater than
+elif [ $VAR -gt 60 ]; then  # else if
+else                         # default
+fi                           # end if block
+
+## comparison operators
+# -gt greater than
+# -lt less than
+# -eq equal to
+# -ne not equal
+# -ge greater or equal
+
+## IMPORTANT RULES
+# Spaces inside [ ] are MANDATORY
+# fi closes every if block
+
+## math
+$((5 * 10))     # multiply
+$((10 / 2))     # divide
+$((10 % 3))     # remainder
+
+## tr command
+tr -d '%'       # delete character
+
+## loops
+# for loop
+for item in list; do
+    action
+done
+
+# for loop with range
+for i in {1..10}; do
+    action
+done
+
+# while loop
+while [ $COUNT -le 5 ]; do
+    action
+    COUNT=$((COUNT + 1))   # NEVER forget this!
+done
+
+# IMPORTANT: forgetting to increment = infinite loop
+# Fix infinite loop: Ctrl+C
