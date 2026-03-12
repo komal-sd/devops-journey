@@ -73,3 +73,10 @@ done
 
 # IMPORTANT: forgetting to increment = infinite loop
 # Fix infinite loop: Ctrl+C
+
+
+## Process Management
+ps aux | grep Z              # find zombie processes
+ps -o ppid= -p PID          # find parent of process
+kill -9 PID                  # force kill process
+kill -s SIGCHLD 1            # signal systemd to clean
