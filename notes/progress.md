@@ -28,3 +28,10 @@ TESTING: fake_command test for set -e (incomplete)
 NEXT: Complete set -e test, set -u test, then error handling
 WEAK AREAS: find -type, cron specific days, awk sum, loops
 PLAN: Bash done by 22 March, Docker starts 23 March
+
+DATE: 20 March 2026
+DAY: 5 Complete!
+LEARNED: Arrays, loops, logging, git branching, git stash, git diff
+BUILT: service_checker.sh, system_report.sh with logging
+GIT: branches, merge, stash, log, diff mastered
+NEXT: Docker starts tomorrow!
