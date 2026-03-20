@@ -4,6 +4,8 @@ echo "========================================="
 echo "  SYSTEM HEALTH REPORT - $(date)"
 echo "========================================="
 
+set -e
+set -u
 echo ""
 echo "--- CPU USAGE ---"
 top -bn1 | grep "Cpu(s)" | awk '{print "CPU Usage: " $2 "%"}'

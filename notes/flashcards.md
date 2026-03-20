@@ -55,3 +55,9 @@ A: free -h
 
 Q: Find largest files?
 A: find / -size +100M 2>/dev/null
+
+## Common Mistakes
+- find -mtime → NO 'd' at end! Just number
+- ps -o ppid= -p → space needed after =
+- grep pattern → lowercase always
+- find size → M not MB!

@@ -5,8 +5,10 @@
  #  Version: 1.0
  # Description: Monitors disk usage
  #  ===============================================================
-
- #Configuration
+ set -e
+ set -u
+ 
+#Configuration
  THRESHOLD=80
  PARTITION="/"
 

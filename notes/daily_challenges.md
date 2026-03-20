@@ -38,3 +38,10 @@
 4. Find all .log files in /var/log
 5. Find files with permission 777
 6. Find empty files in home directory
+
+## Common Mistakes To Remember
+1. grep needs pattern: grep -c "pattern" file
+2. find size unit is M not MB: -size +50M
+3. bash comparison needs integers not decimals
+4. #!/bin/bash needs / before bin
+5. 2>&1 always at end of cron jobs

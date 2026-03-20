@@ -15,3 +15,16 @@ LEARNED: Cron jobs, process management, zombie processes, find command
 PRACTICED: Created 3 cron jobs, killed zombie, found large files
 SECURITY: .gitignore created, AWS credentials secured
 NEXT: Error handling in scripts
+
+DATE: 14 March 2026
+DAY: 5 (partial)
+DONE: Flashcards created, log analysis, interview revision
+NEXT: set -e, set -u, error handling
+
+DATE: 17 March 2026
+DAY: 5
+COMPLETED: set -e and set -u added to disk_alert.sh
+TESTING: fake_command test for set -e (incomplete)
+NEXT: Complete set -e test, set -u test, then error handling
+WEAK AREAS: find -type, cron specific days, awk sum, loops
+PLAN: Bash done by 22 March, Docker starts 23 March

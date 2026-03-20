@@ -4,6 +4,8 @@ echo "=============================================================="
 echo " SYSTEM MONITOR "
 echo "=============================================================="
 
+set -e
+set -u
 # Function for check memory
 check_memory(){
 	USED=$(free | awk 'NR==2{printf "%.0f",$3/$2*100}')

@@ -5,6 +5,9 @@
 # Author: Komal
 # Description: Check CPU Performance
 # =====================================================
+
+set -e
+set -u
 THRESHOLD=80
 
   cpu_checks(){
