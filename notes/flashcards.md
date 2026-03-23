@@ -61,3 +61,47 @@ A: find / -size +100M 2>/dev/null
 - ps -o ppid= -p → space needed after =
 - grep pattern → lowercase always
 - find size → M not MB!
+
+## Bash Scripting
+Q: How to define array?
+A: ARRAY=("item1" "item2" "item3")
+
+Q: How to loop through array?
+A: for ITEM in "${ARRAY[@]}"; do
+
+Q: What does set -e do?
+A: Stops script if any command fails
+
+Q: What does set -u do?
+A: Stops script if undefined variable used
+
+Q: How to do math in bash?
+A: RESULT=$((5 + 3))
+
+Q: How to capture command output?
+A: RESULT=$(command)
+
+Q: How to log with timestamp?
+A: echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" | tee -a logfile
+
+Q: How to count warnings?
+A: WARNINGS=$((WARNINGS + 1))
+
+## Git
+Q: Create new branch?
+A: git checkout -b branch-name
+
+Q: Merge branch to main?
+A: git checkout main && git merge branch-name
+
+Q: Save work temporarily?
+A: git stash
+
+Q: Restore stashed work?
+A: git stash pop
+
+Q: See commit history?
+A: git log --oneline
+
+Q: See what changed in file?
+A: git diff filename
