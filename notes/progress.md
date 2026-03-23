@@ -35,3 +35,9 @@ LEARNED: Arrays, loops, logging, git branching, git stash, git diff
 BUILT: service_checker.sh, system_report.sh with logging
 GIT: branches, merge, stash, log, diff mastered
 NEXT: Docker starts tomorrow!
+
+DATE: 20 March 2026
+DAY: 5 Complete!
+LEARNED: Arrays, loops, logging, git advanced
+BUILT: service_checker.sh, system_report.sh
+TOMORROW: Week 1 final project - server_monitor.sh
