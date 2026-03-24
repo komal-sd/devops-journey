@@ -47,3 +47,10 @@ WEEK 1 COMPLETE!
 FINAL PROJECT: server_monitor.sh done
 README: Professional version pushed
 NEXT: Docker starts tomorrow!
+
+DATE: 23 March 2026
+WEEK 2 DAY 1: Docker started!
+LEARNED: Images vs containers, docker run, exec, logs
+BUILT: Custom nginx image with Dockerfile
+COMMANDS: docker ps, run, stop, rm, exec, logs, build
+NEXT: Dockerfile advanced, docker-compose

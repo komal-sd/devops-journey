@@ -105,3 +105,44 @@ A: git log --oneline
 
 Q: See what changed in file?
 A: git diff filename
+
+## Docker Basics
+Q: What is Docker?
+A: Tool to containerize applications with dependencies
+
+Q: Difference between image and container?
+A: Image = blueprint, Container = running instance
+
+Q: Run a container?
+A: docker run image-name
+
+Q: See running containers?
+A: docker ps
+
+Q: See all containers including stopped?
+A: docker ps -a
+
+Q: See all images?
+A: docker images
+
+Q: Remove stopped containers?
+A: docker container prune
+
+Q: What is Docker Hub?
+A: Public registry for Docker images (like GitHub for code)
+
+## HTTP Status Codes
+Q: What is 200?
+A: Success - request completed!
+
+Q: What is 404?
+A: Not found - page/resource doesn't exist
+
+Q: What is 500?
+A: Server error - something broke on server
+
+Q: What is 401?
+A: Unauthorized - need to login first
+
+Q: What is 403?
+A: Forbidden - no permission to access
